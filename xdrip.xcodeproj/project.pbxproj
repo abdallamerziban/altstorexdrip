@@ -4551,7 +4551,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = V4N4PF2L5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Johan Degraeve. All rights reserved.";
@@ -4585,7 +4585,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = V4N4PF2L5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Johan Degraeve. All rights reserved.";
@@ -4616,7 +4616,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = V4N4PF2L5W;
 				INFOPLIST_FILE = "xDrip4iOS Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4641,7 +4641,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = V4N4PF2L5W;
 				INFOPLIST_FILE = "xDrip4iOS Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4797,7 +4797,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = V4N4PF2L5W;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4806,6 +4806,7 @@
 				);
 				MARKETING_VERSION = "$(XDRIP_MARKETING_VERSION)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.V4N4PF2L5W.xdripswift.xDrip4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "xdrip/xdrip-Bridging-Header.h";
@@ -4825,7 +4826,7 @@
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DEVELOPMENT_TEAM = "$(XDRIP_DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = V4N4PF2L5W;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4834,6 +4835,7 @@
 				);
 				MARKETING_VERSION = "$(XDRIP_MARKETING_VERSION)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.V4N4PF2L5W.xdripswift.xDrip4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "xdrip/xdrip-Bridging-Header.h";
@@ -4852,7 +4854,7 @@
 				470B61A4270C448200561E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F870D3E125126A49008967B0 /* Build configuration list for PBXNativeTarget "xDrip4iOS Widget" */ = {
 			isa = XCConfigurationList;
@@ -4861,7 +4863,7 @@
 				F870D3E025126A49008967B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F8AC425521ADEBD60078C348 /* Build configuration list for PBXProject "xdrip" */ = {
 			isa = XCConfigurationList;
@@ -4870,7 +4872,7 @@
 				F8AC426D21ADEBD70078C348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F8AC426E21ADEBD70078C348 /* Build configuration list for PBXNativeTarget "xdrip" */ = {
 			isa = XCConfigurationList;
@@ -4879,7 +4881,7 @@
 				F8AC427021ADEBD70078C348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
